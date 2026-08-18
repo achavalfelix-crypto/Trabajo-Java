@@ -6,6 +6,8 @@ const botonSaludo = document.querySelector("#boton-saludo");
 const mensajeSaludo = document.querySelector("#mensaje");
 const botonTema = document.querySelector("#boton-tema");
 
+const botonLike = document.querySelector("#boton-like")
+
 
 const miNombre = "Felix";
 const miEdad = 19;
@@ -23,4 +25,12 @@ botonSaludo.addEventListener("click", function () {
 botonTema.addEventListener("click", function () {
     console.log("Apretaste el boton tema");
     document.body.classList.toggle("tema-oscuro");
+})
+
+let numeroDeLikes = 0;
+
+numeroDeLikes = 1000;
+
+botonLike.addEventListener("click", function (){
+    console.log("Apretaste el boton like");
 })
