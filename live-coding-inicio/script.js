@@ -4,7 +4,7 @@ console.log("Ahora vamos a comenzar con la primera actividad");
 
 const botonSaludo = document.querySelector("#boton-saludo");
 const mensajeSaludo = document.querySelector("#mensaje");
-const botonTema = document.querySelecetor("boton-tema");
+const botonTema = document.querySelector("boton-tema");
 
 
 const miNombre = "Felix";
