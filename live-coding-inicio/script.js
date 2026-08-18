@@ -22,4 +22,5 @@ botonSaludo.addEventListener("click", function () {
 
 botonTema.addEventListener("click", function () {
     console.log("Apretaste el boton tema");
+    console.log(document.body);
 })
