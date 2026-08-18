@@ -19,7 +19,7 @@ console.log(mensajeSaludo);
 
 botonSaludo.addEventListener("click", function () {
     console.log("Apretaste el boton");
-    mensajeSaludo.innerText = "Hola" + miNombre;
+    mensajeSaludo.textContent = "Hola" + miNombre;
 });
 
 botonTema.addEventListener("click", function () {
@@ -33,4 +33,5 @@ numeroDeLikes = 1000;
 
 botonLike.addEventListener("click", function (){
     console.log("Apretaste el boton like");
+    botonLike.textContent = "Me gusta (1)";
 })
