@@ -17,10 +17,10 @@ console.log(mensajeSaludo);
 
 botonSaludo.addEventListener("click", function () {
     console.log("Apretaste el boton");
-    mensajeSaludo.innerText = "Hola"+ miNombre;
+    mensajeSaludo.innerText = "Hola" + miNombre;
 });
 
 botonTema.addEventListener("click", function () {
     console.log("Apretaste el boton tema");
-    console.log(document.body);
+    console.log(document.body.classList.add());
 })
