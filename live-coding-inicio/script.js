@@ -22,5 +22,5 @@ botonSaludo.addEventListener("click", function () {
 
 botonTema.addEventListener("click", function () {
     console.log("Apretaste el boton tema");
-    document.body.classList.add("tema-oscuro");
+    document.body.classList.toggle("tema-oscuro");
 })
