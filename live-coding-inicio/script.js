@@ -33,5 +33,6 @@ numeroDeLikes = 1000;
 
 botonLike.addEventListener("click", function (){
     console.log("Apretaste el boton like");
+    numeroDeLikes = numeroDeLikes + 1;
     botonLike.textContent = "Me gusta (1)";
 })
