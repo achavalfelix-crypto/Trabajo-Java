@@ -29,7 +29,6 @@ botonTema.addEventListener("click", function () {
 
 let numeroDeLikes = 0;
 
-numeroDeLikes = 1000;
 
 botonLike.addEventListener("click", function (){
     console.log("Apretaste el boton like");
